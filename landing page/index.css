@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("burger.jpg");
+  /* background:url(burger.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  height: 20vh;
+  display: flex;
+}
+nav h1{
+  color: hsl(0, 96%, 55%);
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+nav ul{
+  display: flex;
+  margin-left: 40%;
+  margin-top: 25px;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-left: 25px;
+}
+nav ul li{
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+}
+nav ul li:nth-child(1) a{
+  color: aqua;
+}
+nav ul li:hover a{
+  color: aqua;
+}
+.header-text{
+  margin-top: 30vh;
+  margin-left: 50%;
+}
+.header-text h1{
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+span{
+  color: red;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.header-text p{
+  color: rgb(47, 186, 107);
+  font-size: 17px;
+  font-family: monospace;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.header-text button{
+  height: 40px;
+  width: 120px;
+  margin-top: 15px;
+  margin-left: 150px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(236, 26, 26);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.cafe-description{
+  margin-top: 10vh;
+}
+.cafe-description h3{
+  color: #fdc910;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 100px;
+}
+.cafe-description p{
+  color: #e9e4e4;
+  margin-top: 10px;
+  margin-left: 100px;
+  font-size: 18px;
+  font-weight: 700;
+}
+footer{
+  margin-top: 20px;
+}
+footer p{
+  color: #fff;
+  margin-left: 85%;
+}
